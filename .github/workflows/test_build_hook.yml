@@ -1,0 +1,14 @@
+name: test-build-hook
+on:
+  push:
+    branches:
+      - master
+jobs:
+  curl:
+    runs-on: ubuntu-latest
+    steps:
+    - name: wget
+      uses: wei/wget@v1
+      with:
+        args: ${{ secrets.JENKIN_URL }}/job/dotnetdesk-ci-cd/build?token=${{ secrets.JENKIN_TOCKEN }}
+
