@@ -1,10 +1,10 @@
 #See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
 
-FROM microsoft/dotnet:2.0-runtime AS runtime
+FROM mcr.microsoft.com/dotnet/core/dotnet:2.0-runtime AS runtime
 WORKDIR /app
 EXPOSE 80
 
-FROM microsoft/dotnet:2.0-sdk AS build
+FROM mcr.microsoft.com/dotnet/core/dotnet:2.0-sdk AS build
 WORKDIR /src
 COPY ["src.csproj", ""]
 RUN dotnet restore "./src.csproj"
