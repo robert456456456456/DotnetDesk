@@ -62,12 +62,12 @@ config
 
 # Screenshots
 
-![demo1](src/src/wwwroot/images/dotnetdesk1.png)
-![demo2](src/src/wwwroot/images/dotnetdesk2.png)
-![demo3](src/src/wwwroot/images/dotnetdesk3.png)
-![demo4](src/src/wwwroot/images/dotnetdesk4.png)
-![demo5](src/src/wwwroot/images/dotnetdesk5.png)
-![demo6](src/src/wwwroot/images/dotnetdesk6.png)
+![demo1](wwwroot/images/dotnetdesk1.png)
+![demo2](wwwroot/images/dotnetdesk2.png)
+![demo3](wwwroot/images/dotnetdesk3.png)
+![demo4](wwwroot/images/dotnetdesk4.png)
+![demo5](wwwroot/images/dotnetdesk5.png)
+![demo6](wwwroot/images/dotnetdesk6.png)
 
 # Supported by CodeRush.Co
 [CodeRush.CO] source code collections (https://coderush.co). 50% Off All Products, Use Discount Code **GITHUB50**
