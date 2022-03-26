@@ -59,6 +59,9 @@ config
 -	ticket priority [high, medium, low]
 -	ticket channel [phone, twitter, email, facebook, web, chat, forum]
 -	product category [monitor, phone, desktop, laptop, printer, other hardware, windows, word, excel, powerpoint, other software]
+# Add Docker Support
+ - Docker Build ( docker build -t src . )
+ - Docker Run ( docker run -d -p 8083:80 --name myapp src )
 
 # Screenshots
 
